@@ -1,125 +1,101 @@
 
 const About = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-background">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-br from-rose-50 to-pink-50 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Empowering <span className="bg-gradient-to-r from-rose-500 to-pink-600 bg-clip-text text-transparent">Female Entrepreneurs</span> to Scale
-            </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We understand the unique challenges of growing a micro business. That's why we're here to bridge the gap between where you are and where you want to be.
-            </p>
-          </div>
+      <section className="pt-32 pb-16 md:pt-48 md:pb-24 lg:pt-56 lg:pb-32">
+        <div className="site-container text-center">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl max-w-4xl mx-auto leading-tight">
+            The Philosophy Behind Care + Candor.
+          </h1>
+          <p className="text-base md:text-lg lg:text-xl text-clay mt-6 md:mt-8 max-w-2xl mx-auto">
+            We believe that true growth comes not from doing more, but from doing more of what matters. Our approach is rooted in intentionality, quality, and the profound impact of focused work.
+          </p>
         </div>
-      </div>
+      </section>
 
       {/* Our Story */}
-      <div className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 md:py-24 lg:py-32">
+        <div className="site-container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
-              <p className="text-gray-600 mb-4">
-                We founded VirtuallyYours after witnessing countless talented female entrepreneurs hitting the same wall: they had great businesses generating $5,000-$15,000 in revenue, but they were doing everything themselves.
+              <h2 className="text-3xl md:text-4xl lg:text-5xl mb-6">Our Story</h2>
+              <p className="text-clay mb-4">
+                We founded Care + Candor after witnessing countless talented entrepreneurs hitting the same wall: they had built meaningful businesses, but found themselves trapped in the day-to-day operations that prevented them from creating their life's work.
               </p>
-              <p className="text-gray-600 mb-4">
-                The problem wasn't lack of ambition or skill – it was not knowing what kind of help they needed or where to find reliable support that wouldn't break the bank.
+              <p className="text-clay mb-4">
+                The problem wasn't lack of vision or capability – it was the absence of the right kind of support. Support that understood not just what needed to be done, but why it mattered.
               </p>
-              <p className="text-gray-600">
-                We created a solution that combines professional assessment, skilled virtual assistants, and dedicated business analysts to help you not just delegate tasks, but strategically scale your business.
+              <p className="text-clay">
+                We created a service that goes beyond task delegation. We curate partnerships between entrepreneurs and assistants, fostering relationships built on understanding, trust, and shared commitment to meaningful work.
               </p>
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=600&h=400&fit=crop"
-                alt="Female entrepreneur working"
-                className="rounded-lg shadow-xl"
+                src="/placeholder.svg"
+                alt="Thoughtful workspace"
+                className="rounded-2xl grayscale"
               />
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-br from-rose-400 to-pink-500 rounded-lg opacity-20"></div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Our Mission */}
-      <div className="bg-gradient-to-br from-rose-50 to-pink-50 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Our Mission</h2>
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-12">
-            To eliminate the guesswork in scaling your business by providing personalized assessments, skilled virtual assistants, and strategic business guidance – all designed specifically for female micro business owners ready to explode their growth.
+      <section className="bg-white py-16 md:py-24 lg:py-32">
+        <div className="site-container text-center">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl mb-8">Our Mission</h2>
+          <p className="text-base md:text-lg lg:text-xl text-clay max-w-4xl mx-auto mb-12">
+            To create space for entrepreneurs to focus on their life's work by providing thoughtfully curated partnerships with skilled virtual assistants who understand that every task, no matter how small, contributes to something greater.
           </p>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-sm border border-rose-100">
-              <div className="w-16 h-16 bg-gradient-to-br from-rose-400 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">🎯</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Personalized Assessment</h3>
-              <p className="text-gray-600">We analyze your unique business needs and identify exactly where virtual assistance can maximize your growth.</p>
+            <div className="bg-background p-8 rounded-xl border border-stone-border">
+              <h3 className="text-xl font-semibold mb-3">Thoughtful Curation</h3>
+              <p className="text-clay">We don't just match skills; we match temperament, values, and working styles to create genuine partnerships.</p>
             </div>
-            
-            <div className="bg-white p-8 rounded-xl shadow-sm border border-rose-100">
-              <div className="w-16 h-16 bg-gradient-to-br from-rose-400 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">👥</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Skilled Matching</h3>
-              <p className="text-gray-600">We train and match you with virtual assistants who understand your industry and business goals.</p>
+
+            <div className="bg-background p-8 rounded-xl border border-stone-border">
+              <h3 className="text-xl font-semibold mb-3">Quality Over Quantity</h3>
+              <p className="text-clay">Every assistant is rigorously vetted and US-based, ensuring consistent, reliable support that aligns with your standards.</p>
             </div>
-            
-            <div className="bg-white p-8 rounded-xl shadow-sm border border-rose-100">
-              <div className="w-16 h-16 bg-gradient-to-br from-rose-400 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">📈</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Strategic Support</h3>
-              <p className="text-gray-600">Every tier includes a dedicated business analyst to help you maximize your virtual assistant's impact.</p>
+
+            <div className="bg-background p-8 rounded-xl border border-stone-border">
+              <h3 className="text-xl font-semibold mb-3">Meaningful Impact</h3>
+              <p className="text-clay">We measure success not by tasks completed, but by the meaningful work our partnerships enable you to create.</p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Values */}
-      <div className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Why Female Entrepreneurs Choose Us</h2>
-          
+      <section className="py-16 md:py-24 lg:py-32">
+        <div className="site-container">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl text-center mb-12">Why Entrepreneurs Choose Care + Candor</h2>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-br from-rose-100 to-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-3xl">💪</span>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Women Supporting Women</h3>
-              <p className="text-gray-600 text-sm">We understand the unique challenges female entrepreneurs face because we've been there too.</p>
+              <h3 className="text-lg font-semibold mb-2">Intentional Partnerships</h3>
+              <p className="text-clay text-sm">We believe in the power of genuine working relationships built on mutual understanding and shared values.</p>
             </div>
-            
+
             <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-br from-rose-100 to-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-3xl">🔍</span>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">No Guesswork</h3>
-              <p className="text-gray-600 text-sm">Our free assessment eliminates the confusion about what kind of help you actually need.</p>
+              <h3 className="text-lg font-semibold mb-2">Clarity Over Confusion</h3>
+              <p className="text-clay text-sm">Our discovery process eliminates guesswork, providing clear direction on exactly how to leverage support.</p>
             </div>
-            
+
             <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-br from-rose-100 to-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-3xl">⚡</span>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Rapid Results</h3>
-              <p className="text-gray-600 text-sm">See immediate impact with assistants trained specifically for your business needs.</p>
+              <h3 className="text-lg font-semibold mb-2">Quality Assurance</h3>
+              <p className="text-clay text-sm">Every assistant is rigorously vetted, ensuring you receive support that meets your exacting standards.</p>
             </div>
-            
+
             <div className="text-center">
-              <div className="w-20 h-20 bg-gradient-to-br from-rose-100 to-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-3xl">🎯</span>
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Strategic Growth</h3>
-              <p className="text-gray-600 text-sm">It's not just about delegation – it's about strategic scaling with dedicated business analyst support.</p>
+              <h3 className="text-lg font-semibold mb-2">Meaningful Growth</h3>
+              <p className="text-clay text-sm">We measure success by the meaningful work our partnerships enable, not just tasks completed.</p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };
