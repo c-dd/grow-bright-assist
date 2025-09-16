@@ -17,7 +17,7 @@ const Index = () => {
       <section className="pt-32 pb-16 md:pt-48 md:pb-24 lg:pt-56 lg:pb-32">
         <div className="site-container text-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl max-w-4xl mx-auto leading-tight">
-            The Space to Create Your Life's Work.
+            Space to Create Your Life's Work.
           </h1>
           <p className="text-base md:text-lg lg:text-xl text-clay mt-6 md:mt-8 max-w-2xl mx-auto">
             We handle the essential tasks that consume your time, so you can focus on the work only you can do. Our assistants provide the foundation for profound growth.
